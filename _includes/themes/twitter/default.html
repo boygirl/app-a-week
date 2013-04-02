@@ -46,19 +46,54 @@
       </div>
     </div>
 
-    <div class="container-narrow">
 
-      <div class="content">
-        {{ content }}
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class ="span3">
+          <h3>Collaborators</h3>
+            <div class ="span3">
+              <a href="http://github.com/leastridge">
+                <img src="https://secure.gravatar.com/avatar/0189cfc7ef8bcb4501299ad40857e5b9?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"></a>
+                <p></p>
+                <a href="http://github.com/lostincode">
+                  <img src="https://secure.gravatar.com/avatar/57cbe91d33317b4c5aa089a8e24c345e?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"></a>
+                  <p></p>
+                <a href="http://github.com/calico-g">
+                  <img src="https://secure.gravatar.com/avatar/8fa6d08522b34778cd6b51c7fe1777bf?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"></a>
+            </div>
+            <div class ="span3">
+              <a href="http://github.com/chrisg220">
+                <img src="https://secure.gravatar.com/avatar/bc189d6a5ef1b943b2cbd274665fb6c8?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"></a>
+                <p></p>
+                <a href="http://github.com/alecmatias">
+                  <img src="https://secure.gravatar.com/avatar/9ecce17cd665b68f327c7ee68f4ef657?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"></a>
+                  <p></p>
+                <a href="http://github.com/nuoymit">
+                  <img src="https://secure.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"></a>
+            </div>
+            <div class ="span3">
+              <a href="http://github.com/dtakahas">
+                <img src="https://secure.gravatar.com/avatar/66734356afee1927e59a69af5ac4085a?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"></a>
+                <p></p>
+                <a href="http://github.com/alphang">
+                  <img src="https://secure.gravatar.com/avatar/93ba1ad58c5f4cb1da86428eb212e383?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"></a>
+                  <p></p>
+                <a href="http://github.com/sharataka">
+                  <img src="https://secure.gravatar.com/avatar/2edd5d576289c88d2cba1a92c9fb3e13?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"></a>
+            </div>
+        </div>
+        <div class="span7">
+          {{ content }}
+
+        <hr>
+        <footer>
+          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+            with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+            and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          </p>
+        </footer>
+        </div>
       </div>
-      <hr>
-      <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
     </div>
 
     {% include JB/analytics %}
