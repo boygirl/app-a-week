@@ -1,46 +1,21 @@
-# Jekyll-Bootstrap
+Welcome to App-a-Week
+=====================
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+App-a-Week is a blog devoted to showcasing ongoing projects.  Our collarorators are students and alumni of the CodeFellows program.  Check out our work!
 
-## Usage
+What to Submit
+--------------
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+App-a-Week is about progress not perfection. Submit whatever you've been working on.  If your project is online, please include a link.  If it only lives locally, take a screenshot.  Software projects of all flavors are welcome!
 
-## Version
+Submitting Content to App-a-Week
+--------------------------------
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+App-a-Week is hosted by Github project pages, and it lives at [leastridge/app-a-week](http://github.com/leastridge/app-a-week).  If you would like to submit a post, please follow these steps
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Contributing 
-
-This repository tracks 2 projects:
-
-- **Jekyll-Bootstrap Framework.**  
-  The framework for which users should clone and build their blog on top of is available in the master branch.
-  
-  To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-  This is very important as it allows me to accept your pull request without having to publish a public version release.
-  
-  Small, atomic Features, bugs, etc.   
-  Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.   
-  Please rebase as often as possible when working.   
-  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-  
-  For Big Features or major API extensions/edits:   
-  This is the one case where I'll accept pull-requests based off the master branch.
-  This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-  Translation : it might take a bit longer so please be patient! (but sincerely thank you).
- 
-- **Jekyll-Bootstrap Documentation Website.**    
-  The documentation website at <http://jekyllbootstrap.com> is maintained in the gh-pages branch.
-  Please fork and contribute documentation additions to this branch only.
-
-The master and gh-pages branch do not share the same ancestry. Please treat them as completely separate git repositories!
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
++ Fork the repo
++ Make sure you are working on the 'gh-pages' branch
++ In the terminal: `rake post title="Your Title"`
++ Create a post in markdown, add images, links to your github repo, whatever you like
++ Preview your changes to the site by running `jekyll --server` and checking out the site locally at localhost:4000
++ When you are satisfied, commit your changes and submit a pull request.  If you are already a collaborator, simply push to the `gh-pages` branch of this repo.
