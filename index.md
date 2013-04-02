@@ -5,12 +5,13 @@ tagline: Every Week!
 ---
 {% include JB/setup %}
 
-<h1 class="foo">Latest Post</h1>
+<h2 class="foo">Latest Post</h2>
 ----
 {% assign x = site.posts.first %}
-<h2><a href="{{ x.url }}">{{ x.title }}</a></h2>
+<h3><a href="{{ x.url }}">{{ x.title }}</a></h3>
 {{ x.content }}
-<h1 class="foo">More Posts</h1>
+----
+<h2 class="foo">More</h2>
 <ul class="posts">
 {% for post in site.posts limit:10 %}
 {% if forloop.index != 1 %}
