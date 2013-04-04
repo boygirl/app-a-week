@@ -9,7 +9,7 @@ tags: []
 
 One busy afternoon when I should have been working on my class assignments, I was lazily browsing my Facebook's news feed when I noticed it was being overrun by all kinds of "Suggested" content. Suggested Posts, Suggested Pages, Suggested Events... simply ads redefined by some brooding and evil Facebook advertising manager.
 
-![Unsuggested for Facebook](../assets/unsuggested.png)
+[![Unsuggested for Facebook](../assets/unsuggested.png)](https://chrome.google.com/webstore/detail/unsuggested-for-facebook/aafbgdfjkacljfjjnpoolgkgealgfjbp)
 
 After futzing around the settings searching in vain for a way to disable them, I decided to search for a software solution. There was only one: a Chrome extension with reviews complaining that it wasn't working.
 
