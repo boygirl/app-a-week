@@ -7,8 +7,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-# Presenting... Unsuggested for Facebook
-
 One busy afternoon when I should have been working on my class assignments, I was lazily browsing my Facebook's news feed when I noticed it was being overrun by all kinds of "Suggested" content. Suggested Posts, Suggested Pages, Suggested Events... simply ads redefined by some brooding and evil Facebook advertising manager.
 
 ![Unsuggested for Facebook](../assets/unsuggested.png)
