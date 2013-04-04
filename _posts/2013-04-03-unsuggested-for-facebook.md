@@ -16,3 +16,5 @@ After futzing around the settings searching in vain for a way to disable them, I
 What's a developer to do? Build his own solution of course! Introducing Unsuggest for Facebook, a Chrome extension that removes all the annoying Suggested Posts and Pages in your Facebook news feed!
 
 If you're as annoyed as I am, [install the plugin](https://chrome.google.com/webstore/detail/unsuggested-for-facebook/aafbgdfjkacljfjjnpoolgkgealgfjbp) and let me know how it works for you. I'd love to hear feedback!
+
+-- [Alec Matias](www.linkedin.com/in/alecmatias/)
